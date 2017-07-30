@@ -1,0 +1,186 @@
+<html>
+<head>
+<title>Weathersleuth Article</title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Passion+One:700,400' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Lora:400,400italics' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="kenstyle.css">
+	<meta property="og:url" content="http://www.personal.psu.edu/kih5283/blogs/eport.html" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Ken's Eportfolio" />
+	<meta property="og:description" content="Share Ken's Eportfolio Page!" />
+	<meta property="og:image" content="http://www.personal.psu.edu/kih5283/blogs/heart.jpg" />
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+if (matchMedia('only screen and (min-width: 975px)').matches) {
+$sizetest = 0;
+$(function() {
+
+    var $sidebar   = $("#sticky_sidebar"),
+        $window    = $(window),
+        offset     = $sidebar.offset(),
+        topPadding = 40;
+
+    $window.scroll(function() {
+        if ($window.scrollTop() > offset.top) {
+            $sidebar.stop().animate({
+                marginTop: $window.scrollTop() - offset.top + topPadding
+            });
+        } else {
+            $sidebar.stop().animate({
+                marginTop: 0
+            });
+        }
+    });
+
+});
+}
+if (matchMedia('only screen and (max-width: 975px)').matches) {
+$('#article_content').insertBefore('#ad_wrapper_article');
+$sizetest = 1;
+}
+});
+
+$(window).resize(function(){
+if (matchMedia('only screen and (max-width: 975px)').matches) {
+$('#article_content').insertBefore('#ad_wrapper_article');
+if ($sizetest == 0){
+location.reload();
+}
+}
+
+
+if (matchMedia('only screen and (min-width: 975px)').matches) {
+$('#ad_wrapper_article').insertBefore('#article_content');
+if ($sizetest == 1){
+location.reload();
+}
+}
+});
+
+</script>
+</head>
+
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+<h1 id="blog_name">Weathersleuth</h1>
+<div class="rectangle">
+
+<div class="nav_container">
+<ul id="navigation">
+<li><a href="home.html">&#9830; Home</a></li>
+<li><a href="recent.html">&#9830; Most Recent</a></li>
+<li><a href="popular.html">&#9830; Most Popular</a></li>
+<li><a href="about.html">&#9830; About</a></li>
+<li><a href="contact.html">&#9830; Contact</a></li>
+<li><div class="fb-like" data-href="http://www.personal.psu.edu/kih5283/blogs/eport/home.html" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div></li>
+</ul>
+</div>
+</div>
+
+<div id="ad_wrapper_article_2">
+
+<div id="social_section">
+<h3 id="side_header">Connect with Us</h3>
+<a href="https://www.facebook.com/"><img class="soc_med" src="icon_Facebook.png" alt="Facebook Button"></a>
+<a href="https://twitter.com/?lang=en"><img class="soc_med_2" src="icon_twitter.png" alt="Twitter Button"></a>
+<a href="https://www.instagram.com/?hl=en"><img class="soc_med_3" src="icon_Instagram.png" alt="Instagram Button"></a>
+</div>
+
+<div id="subscribe">
+<h3 id="side_header">Subscribe</h3>
+<form method="post" action="//weathersleuth.us13.list-manage.com/subscribe/post?u=b27440dadb3166b9b12cda2ee&amp;id=4645eac027" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+<p id="sub_para">Enter your email below to begin recieving our newsletter</p>
+<input id="email_input" type="email" name="EMAIL" value="">
+<br><br>
+<div id="mce-responses" class="clear">
+	<div class="response" id="mce-error-response" style="display:none"></div>
+	<div class="response" id="mce-success-response" style="display:none"></div>
+</div>
+<input id="submit_button" name="subscribe" type="submit" value="Subscribe!" class="button">
+</form>
+</div>
+<div class="advert">
+<a href="http://www.chevrolet.com/?cmp=OLA_DISPLAY_9300958_130146577_300143430_68041883"><img class="advert_image" src="ad2.png" alt="Chevrolet Ad" width=100%>
+</a>
+</div>
+
+<div class="advert">
+<a href="https://weather.com/news/trending/video/windows-10-update-interrupts-broadcast"><img class="advert_image" src="ad1.png" alt="Meteo Explained" width=100%>
+</a>
+</div>
+
+<div class="advert">
+<a href="http://www.chevrolet.com/?cmp=OLA_DISPLAY_9300958_130146577_300143430_68041883"><img class="advert_image" src="ad3.png" alt="Chevrolet Ad" width=100%>
+</a>
+</div>
+
+<div class="advert">
+<a href="http://www.solarmax.no/Aurora/DVD.html"><img class="advert_image" src="ad4.gif" alt="Aurora Ad" width=100%>
+</a>
+</div>
+
+<div class="advert">
+<a href="http://www.metamorphosisdesign.com/meteorite-jewelry-store/"><img class="advert_image" src="ad6.jpg" alt="Ring Ad" width=100%>
+</a>
+</div>
+
+<div class="advert">
+<a href="http://www.auroraholidays.net/"><img class="advert_image" src="ad5.gif" alt="Ring Ad" width=100%>
+</a>
+</div>
+
+</div>
+<div class="article_shell">
+<h2 id="feature_article"><a id="feature_article" href="#">Sample Weathersleuth Article</a></h2>
+<hr id="hr_ab">
+
+<img id="feature_image_article" src="old_main.gif" alt="Old Main in the Snow" width=100%>
+
+<div id="story_box">
+<h3>Lorem ipsum dolor sit amet consectetur adipiscing</h3>
+<p>Integer rutrum lacinia consequat. Morbi sit amet bibendum ex. Integer egestas convallis risus tempus fringilla. Duis ornare scelerisque nisi, vitae tempus mi egestas in. Cras porta lectus in volutpat commodo. In hac habitasse platea dictumst. Aenean egestas commodo tincidunt. Duis tincidunt vitae enim id dictum. Vivamus elementum neque eget felis consequat, non sollicitudin enim pulvinar. Etiam efficitur scelerisque arcu, vitae elementum odio luctus non.</p>
+<h3>Maecenas porttitor eros et libero dignissim sed</h3>
+<p>Curabitur elit tellus, sagittis ac erat sit amet, commodo varius tellus. Integer faucibus vestibulum risus, eu maximus massa gravida quis. Aliquam porta neque mauris, sit amet malesuada ligula rhoncus sit amet. Vivamus accumsan venenatis venenatis. Integer lobortis ipsum nec eros blandit fermentum ornare vel augue. Vestibulum a efficitur turpis, ac aliquam elit. Vivamus luctus nec quam quis interdum. Suspendisse iaculis sem venenatis, venenatis dui sed, interdum tellus. Donec lobortis malesuada ultrices. Integer scelerisque ex nunc, id pretium arcu lacinia non. In id massa a elit finibus venenatis sit amet vitae felis.</p>
+<img id="in_art_image" src="mete.jpg">
+<h3>Sed egestas ante lectus in maximus arcu</h3>
+<p>Nullam eget scelerisque nisl. Nulla vitae sem vitae turpis pharetra laoreet. Mauris nec imperdiet nulla. Phasellus pharetra auctor gravida. Aliquam vel urna non mi sagittis imperdiet. In orci mi, condimentum laoreet mollis finibus, cursus ac justo. Vestibulum at eros et mauris efficitur pulvinar. Donec ut blandit justo, egestas vehicula massa. Donec sollicitudin ipsum turpis, sed gravida nulla congue ut. Praesent sit amet fringilla augue. Pellentesque scelerisque tortor arcu, nec interdum quam ultricies eu. Proin dapibus augue tellus, vel luctus diam congue ac. Donec pellentesque leo mi, id malesuada massa bibendum et.</p>
+<img id="in_art_image" src="raining.gif" alt="Windy Trees" height=350 width=70%>
+<h3>Praesent ultricies enim vitae efficitur euismod Class</h3>
+<p>Sed rutrum aliquam turpis quis aliquet. Nullam lacinia tellus accumsan arcu placerat, sit amet convallis ipsum pellentesque. Nullam eros massa, sollicitudin vel viverra at, vestibulum eget magna. Aenean mi nulla, porta vel consectetur pharetra, luctus sit amet justo. Integer condimentum nisl mauris, quis scelerisque magna faucibus eget. Pellentesque eu ornare metus. Aenean fringilla diam eget diam aliquam, at vehicula ex placerat. Nullam arcu nisl, iaculis id massa eget, mattis euismod magna. Aenean et eros eu purus laoreet porttitor. Fusce volutpat neque elit, placerat luctus nulla sollicitudin id. Donec augue ipsum, consequat ac auctor vel, interdum quis mi. Sed ullamcorper ligula odio, vel bibendum diam semper id. Maecenas consequat in urna id egestas. Donec et porttitor velit.</p>
+<h3>Vestibulum ornare molestie eros ac hendrerit Donec</h3>
+<p>Nunc commodo, ex a consectetur posuere, tellus ante vehicula magna, id consequat mi ligula nec mauris. In hac habitasse platea dictumst. Vestibulum pretium auctor risus eget vehicula. Maecenas et tortor placerat, convallis nulla id, placerat arcu. Mauris nulla dolor, volutpat quis vulputate a, interdum ac est. Nunc ornare porttitor tellus, dictum finibus nibh porta quis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus viverra dolor eu nisl pretium, ac porttitor velit finibus. Nam libero tellus, pulvinar luctus tellus eget, dictum condimentum massa. Cras pretium tellus sed lorem finibus scelerisque. Mauris finibus ornare tristique. Quisque posuere, purus vitae elementum pharetra, nisi dolor feugiat odio, id dapibus erat metus at neque. Pellentesque metus urna, ullamcorper id elit in, dictum vehicula nisi.</p>
+</div>
+</div>
+
+<div id="footer_wrapper">
+<ul id="bot_list">
+<li id="copy">&copy2016</li>
+<li id="foot_title">Weathersleuth</li>
+<li id="foot_link"><a href="home.html">&#9830; Home</a></li>
+<li id="foot_link"><a href="recent.html">&#9830; Most Recent</a></li>
+<li id="foot_link"><a href="popular.html">&#9830; Most Popular</a></li>
+<li id="foot_link"><a href="about.html">&#9830; About</a></li>
+<li id="foot_link"><a href="contact.html">&#9830; Contact</a></li>
+<ul>
+</div>
+</body>
+
+</html>

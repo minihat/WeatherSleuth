@@ -1,0 +1,15 @@
+[15-Aug-2016 05:21:49 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home/wxsleuth/public_html/test.php:8
+Stack trace:
+#0 /home/wxsleuth/public_html/test.php(8): SimpleXMLElement->__construct('\n\n\t\n\n\t\n\n\t\n\n\t\n\n\t...')
+#1 {main}
+  thrown in /home/wxsleuth/public_html/test.php on line 8
+[15-Aug-2016 05:23:29 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home/wxsleuth/public_html/test.php:8
+Stack trace:
+#0 /home/wxsleuth/public_html/test.php(8): SimpleXMLElement->__construct('\n\n\t\n\n\t\n\n\t\n\n\t\n\n\t...')
+#1 {main}
+  thrown in /home/wxsleuth/public_html/test.php on line 8
+[15-Aug-2016 05:45:18 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home/wxsleuth/public_html/test.php:10
+Stack trace:
+#0 /home/wxsleuth/public_html/test.php(10): SimpleXMLElement->__construct('\n\n\t\n\n\t\n\n\t\n\n\t\n\n\t...')
+#1 {main}
+  thrown in /home/wxsleuth/public_html/test.php on line 10
