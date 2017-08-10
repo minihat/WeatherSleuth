@@ -2,7 +2,9 @@ body {
 	margin: 0;
 	background-color: #141F33;
 	height: 100%;
+	margin-top:75px;
 }
+
 
 #blog_name {
 	color: white;
@@ -19,7 +21,7 @@ body {
 #navigation li {
 	list-style: none;
 	display: inline-block;
-	margin: 10px 4% 10px 4%;
+	margin: 0px 2% 0px 2%;
 	line-height: 25px;
 }
 
@@ -36,10 +38,11 @@ body {
 
 #navigation {
 	display: inline-block;
-	margin-left: 5%;
-	margin-right: 5%;
-	width: 85%;
+	margin-left: 1%;
+	margin-right: 1%;
+	width: 98%;
 	text-align: center;
+	white-space:nowrap;
 }
 
 .rectangle {
@@ -47,8 +50,19 @@ body {
 	height: 50px;
 	background: #F5F5F5;
 	margin: 0 auto;
+	margin-top:-75px;
+	display: table;
+	position:fixed;
+	z-index:10;
+}
+.rectangle2 {
+	width: 100%;
+	height: 50px;
+	background: #F5F5F5;
+	margin: 0 auto;
 	display: table;
 }
+
 #feature {
 	color: black;
 	font-family: Arial, Verdana, sans-serif;
@@ -149,7 +163,7 @@ body {
 	border: 0;
 	height: 0;
 	box-shadow: 0 0 10px 1px black;
-}	
+}
 #hr_right {
 	margin-top: 100px;
 	float: right;
@@ -164,14 +178,14 @@ body {
 	height: 0;
 	box-shadow: 0 0 40px 10px black;
 }
-#hr_ab_2 {	
+#hr_ab_2 {
 	width: 100%;
 	border: 0;
 	height: 0;
 	box-shadow: 0 0 20px 2px black;
 	margin-bottom: 50px;
 	background: white;
-}	
+}
 #story_box h3 {
 	display: inline-block;
 	font-family: Lora;
@@ -245,29 +259,31 @@ body {
 	padding-top: 10px;
 	margin-bottom: 10px;
 }
-
 .soc_med {
-	width: 25%;
-	margin-left: 12.5%;
+	position: relative;
+	width: 15%;
 	float: left;
-	padding-bottom: 10px;
+	margin-left:20%;
 }
 
 .soc_med_2 {
 	position: relative;
-	width: 25%;
+	width: 15%;
 	float: left;
-	margin-left: 0;
-	margin-right: 0;
 }
 
 .soc_med_3 {
 	position: relative;
 	float: left;
-	width: 25%;
-	margin-left: 0;
-	margin-right: 12.5%;
-}	
+	width: 15%;
+}
+#soc_med_icons {
+	vertical-align:middle;
+}
+
+#wslogo {
+	vertical-align:middle;
+}
 
 #subscribe {
 	background: #ffffb3;
@@ -288,7 +304,7 @@ body {
 	-khtml-border-radius: 10px;
 	-webkit-border-radius: 10px;
 }
-	
+
 form {
 	text-align: center;
 	position: relative;
@@ -306,7 +322,7 @@ form {
 	-webkit-border-radius: 5px;
 	margin-bottom: 30px;
 	padding: 3px 3px 3px 3px;
-}	
+}
 
 #footer_wrapper {
 	background: #F5F5F5;
@@ -346,7 +362,7 @@ form {
 #next {
 	font-family: Roboto;
 	font-size: 18px;
-	margin-left: 10%;	
+	margin-left: 10%;
 	background: #F5F5F5;
 	padding: 10px 24px 10px 24px;
 }
