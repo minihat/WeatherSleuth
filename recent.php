@@ -178,7 +178,7 @@ echo '\'">';
 
 <div id="footer_wrapper">
 <ul id="bot_list">
-<li id="copy">&copy2017</li>
+<li id="copy">&copy2018</li>
 <li id="foot_title">Weathersleuth</li>
 <li id="foot_link"><a href="home.html">&#9830; Home</a></li>
 <li id="foot_link"><a href="recent.php">&#9830; Recent Posts</a></li>
