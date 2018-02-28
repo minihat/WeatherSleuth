@@ -36,7 +36,7 @@
 
 <div class="nav_container">
 <ul id="navigation">
-<li id="wslogo"><a href="http://weathersleuth.com/home.html"><img src="weathersleuth_logo.png" height="50"></a></li>
+<li id="wslogo"><a href="http://weathersleuth.com/home.html"><img src="images/weathersleuth_logo.png" height="50"></a></li>
 <li><a href="home.html">&#9830; Home</a></li>
 <li><a href="recent.php">&#9830; Most Recent</a></li>
 <li><a href="popular.php">&#9830; Most Popular</a></li>
@@ -44,9 +44,9 @@
 <li><a href="contact.html">&#9830; Contact</a></li>
 <li id="soc_med_icons">
 <div>
-	<a href="https://www.linkedin.com/in/halltim/"><img class="soc_med" src="icon_linkedin.png" alt="LinkedIn Button"></a>
-	<a href="https://twitter.com/?lang=en"><img class="soc_med_2" src="icon_twitter.png" alt="Twitter Button"></a>
-	<a href="https://www.instagram.com/?hl=en"><img class="soc_med_3" src="icon_Instagram.png" alt="Instagram Button"></a>
+	<a href="https://www.linkedin.com/in/halltim/"><img class="soc_med" src="images/icon_linkedin.png" alt="LinkedIn Button"></a>
+	<a href="https://twitter.com/?lang=en"><img class="soc_med_2" src="images/icon_twitter.png" alt="Twitter Button"></a>
+	<a href="https://www.instagram.com/?hl=en"><img class="soc_med_3" src="images/icon_Instagram.png" alt="Instagram Button"></a>
 </div>
 </li>
 <!--
@@ -62,7 +62,7 @@
 
   <div id="subscribe">
   <h3 id="side_header">Subscribe</h3>
-  <img src="tim.jpg" alt="Tim Hall" style="width:100%;display:block;margin:0">
+  <img src="images/tim.jpg" alt="Tim Hall" style="width:100%;display:block;margin:0">
   <form method="post" action="//weathersleuth.us13.list-manage.com/subscribe/post?u=b27440dadb3166b9b12cda2ee&amp;id=4645eac027" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
   <p id="sub_para">Enter your email below to begin recieving Tim Hall's WeatherSleuth newsletter</p>
   <input id="email_input" type="email" name="EMAIL" value="">
@@ -107,7 +107,7 @@ if($post_num + 8 <= $length){
 			echo '<p id="blurb">' . $xml->post[$i]->blurb . '</p>';
 			echo '<p id="stats">' . $xml->post[$i]->viewcount . ' Views &#9899 0 Comments &#9899 ' . $xml->post[$i]->date . '</p>';
 			echo '</div>';
-			echo '<a href="' . $xml->post[$i]->link . '"><img id="feature_image" src="' . $xml->post[$i]->picture . '" alt="Blog Featured Picture" height=350 width=35%></a>';
+			echo '<a href="' . $xml->post[$i]->link . '"><img id="feature_image" src="images/' . $xml->post[$i]->picture . '" alt="Blog Featured Picture" height=350 width=35%></a>';
 			echo '<br>';
 		}else{
 				// Display case if even
