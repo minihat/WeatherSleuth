@@ -116,7 +116,7 @@ if($post_num + 8 <= $length){
 			echo '<p id="blurb">' . $xml->post[$i]->blurb . '</p>';
 			echo '<p id="stats">' . $xml->post[$i]->viewcount . ' Views &#9899 0 Comments &#9899 ' . $xml->post[$i]->date . '</p>';
 			echo '</div>';
-			echo '<a href="' . $xml->post[$i]->link . '"><img id="feature_image_right" src="' . $xml->post[$i]->picture . '" alt="Blog Featured Picture" height=350 width=35%></a>';
+			echo '<a href="' . $xml->post[$i]->link . '"><img id="feature_image_right" src="images/' . $xml->post[$i]->picture . '" alt="Blog Featured Picture" height=350 width=35%></a>';
 		}
   }
 }
@@ -132,7 +132,7 @@ if(($post_num + 8) > $length && $post_num < $length){
 			echo '<p id="blurb">' . $xml->post[$i]->blurb . '</p>';
 			echo '<p id="stats">' . $xml->post[$i]->viewcount . ' Views &#9899 0 Comments &#9899 ' . $xml->post[$i]->date . '</p>';
 			echo '</div>';
-			echo '<a href="' . $xml->post[$i]->link . '"><img id="feature_image" src="' . $xml->post[$i]->picture . '" alt="Blog Featured Picture" height=350 width=35%></a>';
+			echo '<a href="' . $xml->post[$i]->link . '"><img id="feature_image" src="images/' . $xml->post[$i]->picture . '" alt="Blog Featured Picture" height=350 width=35%></a>';
 			echo '<br>';
 		}else{
 			// Display case if even
@@ -141,7 +141,7 @@ if(($post_num + 8) > $length && $post_num < $length){
 		echo '<p id="blurb">' . $xml->post[$i]->blurb . '</p>';
 		echo '<p id="stats">' . $xml->post[$i]->viewcount . ' Views &#9899 0 Comments &#9899 ' . $xml->post[$i]->date . '</p>';
 		echo '</div>';
-		echo '<a href="' . $xml->post[$i]->link . '"><img id="feature_image_right" src="' . $xml->post[$i]->picture . '" alt="Blog Featured Picture" height=350 width=35%></a>';
+		echo '<a href="' . $xml->post[$i]->link . '"><img id="feature_image_right" src="images/' . $xml->post[$i]->picture . '" alt="Blog Featured Picture" height=350 width=35%></a>';
 		}
 	}
 $imax = 7-($length - $post_num);
@@ -149,11 +149,11 @@ for($i=$length; $i<$imax+$length; $i++){
 			if(($i + 1) % 2 != 0){
 				echo '<div class="description">';
 				echo '</div>';
-				echo '<img id="feature_image" src="weathersleuth_logo.png" alt="Logo" height=350 width=35%>';
+				echo '<img id="feature_image" src="images/weathersleuth_logo.png" alt="Logo" height=350 width=35%>';
 			}else{
 				echo '<div class="description_left">';
 				echo '</div>';
-				echo '<img id="feature_image_right" src="weathersleuth_logo.png" alt="Logo" height=350 width=35%>';
+				echo '<img id="feature_image_right" src="images/weathersleuth_logo.png" alt="Logo" height=350 width=35%>';
 			}
 }
 
