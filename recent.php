@@ -104,7 +104,7 @@ if($post_num + 8 <= $length){
 			echo '<div class="description">';
 			echo '<h2 id="feature"><a id="feature" href="' . $xml->post[$i]->link . '">' . $xml->post[$i]->post_title . '</a></h2>';
 			echo '<p id="blurb">' . $xml->post[$i]->blurb . '</p>';
-			echo '<p id="stats">' . $xml->post[$i]->viewcount . ' Views &#9899 0 Comments &#9899 ' . $xml->post[$i]->date . '</p>';
+			echo '<p id="stats">&#9899 ' . $xml->post[$i]->date . '</p>';
 			echo '</div>';
 			echo '<a href="' . $xml->post[$i]->link . '"><img id="feature_image" src="images/' . $xml->post[$i]->picture . '" alt="Blog Featured Picture" height=350 width=35%></a>';
 			echo '<br>';
@@ -113,7 +113,7 @@ if($post_num + 8 <= $length){
 			echo '<div class="description_left">';
 			echo '<h2 id="feature"><a id="feature" href="' . $xml->post[$i]->link . '">' . $xml->post[$i]->post_title . '</a></h2>';
 			echo '<p id="blurb">' . $xml->post[$i]->blurb . '</p>';
-			echo '<p id="stats">' . $xml->post[$i]->viewcount . ' Views &#9899 0 Comments &#9899 ' . $xml->post[$i]->date . '</p>';
+			echo '<p id="stats">&#9899 ' . $xml->post[$i]->date . '</p>';
 			echo '</div>';
 			echo '<a href="' . $xml->post[$i]->link . '"><img id="feature_image_right" src="images/' . $xml->post[$i]->picture . '" alt="Blog Featured Picture" height=350 width=35%></a>';
 		}
@@ -129,7 +129,7 @@ if(($post_num + 8) > $length && $post_num < $length){
 			echo '<div class="description">';
 			echo '<h2 id="feature"><a id="feature" href="' . $xml->post[$i]->link . '">' . $xml->post[$i]->post_title . '</a></h2>';
 			echo '<p id="blurb">' . $xml->post[$i]->blurb . '</p>';
-			echo '<p id="stats">' . $xml->post[$i]->viewcount . ' Views &#9899 0 Comments &#9899 ' . $xml->post[$i]->date . '</p>';
+			echo '<p id="stats">&#9899 ' . $xml->post[$i]->date . '</p>';
 			echo '</div>';
 			echo '<a href="' . $xml->post[$i]->link . '"><img id="feature_image" src="images/' . $xml->post[$i]->picture . '" alt="Blog Featured Picture" height=350 width=35%></a>';
 			echo '<br>';
@@ -138,7 +138,7 @@ if(($post_num + 8) > $length && $post_num < $length){
 		echo '<div class="description_left">';
 		echo '<h2 id="feature"><a id="feature" href="' . $xml->post[$i]->link . '">' . $xml->post[$i]->post_title . '</a></h2>';
 		echo '<p id="blurb">' . $xml->post[$i]->blurb . '</p>';
-		echo '<p id="stats">' . $xml->post[$i]->viewcount . ' Views &#9899 0 Comments &#9899 ' . $xml->post[$i]->date . '</p>';
+		echo '<p id="stats">&#9899 ' . $xml->post[$i]->date . '</p>';
 		echo '</div>';
 		echo '<a href="' . $xml->post[$i]->link . '"><img id="feature_image_right" src="images/' . $xml->post[$i]->picture . '" alt="Blog Featured Picture" height=350 width=35%></a>';
 		}
