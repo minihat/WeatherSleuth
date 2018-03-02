@@ -241,7 +241,7 @@ body {
 	#ad_wrapper_article_3 {
 		display: none;
 	}
-	#article_shell {
+	.article_shell {
 		width: 96%;
 	}
 }
