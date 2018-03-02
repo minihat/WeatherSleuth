@@ -238,6 +238,12 @@ body {
 	#feature_image_right {
 		width: 48%;
 	}
+	#ad_wrapper_article_3 {
+		display: none;
+	}
+	#article_shell {
+		width: 96%;
+	}
 }
 
 #ad_wrapper_article {
