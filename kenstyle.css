@@ -92,7 +92,6 @@ body {
 .description {
 	background: #96BEE6;
 	width: 35%;
-	height: auto;
 	float: right;
 	height: 350px;
 
@@ -100,7 +99,6 @@ body {
 .description_left {
 	background: #96BEE6;
 	width: 35%;
-	height: auto;
 	float: left;
 	height: 350px;
 	margin-left: 2%;
@@ -108,12 +106,16 @@ body {
 #feature_image {
 	float: left;
 	margin-left: 2%;
+	width: 35%;
+	height: auto;
 	vertical-align: top;
 	background: white;
 }
 #feature_image_right {
 	float: left;
 	margin-right: 0%;
+	width: 35%;
+	height: auto;
 	background: white;
 }
 
