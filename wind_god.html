@@ -43,9 +43,8 @@
 <li><a href="contact.html">&#9830; Contact</a></li>
 <li id="soc_med_icons">
 <div>
-	<a href="https://www.linkedin.com/in/halltim/"><img class="soc_med" src="images/icon_linkedin.png" alt="LinkedIn Button"></a>
-	<a href="https://twitter.com/?lang=en"><img class="soc_med_2" src="images/icon_twitter.png" alt="Twitter Button"></a>
-	<a href="https://www.instagram.com/?hl=en"><img class="soc_med_3" src="images/icon_Instagram.png" alt="Instagram Button"></a>
+  <a href="https://www.linkedin.com/in/halltim/"><img class="soc_med" src="images/icon_linkedin.png" alt="LinkedIn Button"></a>
+	<a href="https://twitter.com/wxsleuth"><img class="soc_med_2" src="images/icon_twitter.png" alt="Twitter Button"></a>
 </div>
 </li>
 <!--
