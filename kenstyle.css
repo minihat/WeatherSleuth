@@ -372,6 +372,7 @@ form {
 	margin-top: 5px;
 	margin-bottom: 5px;
 	background: #F5F5F5;
+	display: inline-block
 }
 #footer_wrapper li {
 	display: inline;
