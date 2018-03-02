@@ -357,6 +357,7 @@ form {
 	margin-left: 15%;
 	background: #F5F5F5;
 	padding: 10px 24px 10px 24px;
+	float: left;
 }
 
 #next {
@@ -365,11 +366,12 @@ form {
 	margin-right: 15%;
 	background: #F5F5F5;
 	padding: 10px 24px 10px 24px;
+	float: right;
 }
 #page_navs {
 	width: 75%;
 	margin-top: 0;
-	margin-bottom: 20px;
+	margin-bottom: 0;
 	margin-left: 0;
 	padding-top: 10px;
 	padding-bottom: 10px;
