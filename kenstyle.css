@@ -227,7 +227,7 @@ body {
 	}
 	.description {
 		width: 48%;
-		float: left;
+		margin-right: 2%;
 	}
 	.description_left {
 		width: 48%;
