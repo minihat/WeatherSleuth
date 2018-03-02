@@ -92,6 +92,7 @@ body {
 .description {
 	background: #96BEE6;
 	width: 35%;
+	height: auto;
 	float: right;
 	height: 350px;
 
@@ -99,6 +100,7 @@ body {
 .description_left {
 	background: #96BEE6;
 	width: 35%;
+	height: auto;
 	float: left;
 	height: 350px;
 	margin-left: 2%;
