@@ -18,55 +18,6 @@
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-if (matchMedia('only screen and (min-width: 975px)').matches) {
-$sizetest = 0;
-$(function() {
-
-    var $sidebar   = $("#sticky_sidebar"),
-        $window    = $(window),
-        offset     = $sidebar.offset(),
-        topPadding = 40;
-
-    $window.scroll(function() {
-        if ($window.scrollTop() > offset.top) {
-            $sidebar.stop().animate({
-                marginTop: $window.scrollTop() - offset.top + topPadding
-            });
-        } else {
-            $sidebar.stop().animate({
-                marginTop: 0
-            });
-        }
-    });
-
-});
-}
-if (matchMedia('only screen and (max-width: 975px)').matches) {
-$('#article_content').insertBefore('#ad_wrapper_article');
-$sizetest = 1;
-}
-});
-
-$(window).resize(function(){
-if (matchMedia('only screen and (max-width: 975px)').matches) {
-$('#article_content').insertBefore('#ad_wrapper_article');
-if ($sizetest == 0){
-location.reload();
-}
-}
-
-
-if (matchMedia('only screen and (min-width: 975px)').matches) {
-$('#ad_wrapper_article').insertBefore('#article_content');
-if ($sizetest == 1){
-location.reload();
-}
-}
-});
-
-</script>
 </head>
 
 <body>

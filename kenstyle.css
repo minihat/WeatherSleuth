@@ -221,6 +221,11 @@ body {
 	margin-left: 2%;
 	height: 2800px;
 }
+@media only screen and (max-width: 1026px) {
+	#ad_wrapper {
+		display: none;
+	}
+}
 
 #ad_wrapper_article {
 	float: right;
