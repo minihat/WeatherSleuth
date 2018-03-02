@@ -356,6 +356,7 @@ form {
 	font-size: 18px;
 	margin-left: 15%;
 	margin-bottom: 15px;
+	padding-bottom: 5px;
 	background: #F5F5F5;
 	padding: 10px 24px 10px 24px;
 	float: left;
@@ -366,6 +367,7 @@ form {
 	font-size: 18px;
 	margin-right: 15%;
 	margin-bottom: 15px;
+	padding-bottom: 5px;
 	background: #F5F5F5;
 	padding: 10px 24px 10px 24px;
 	float: right;
