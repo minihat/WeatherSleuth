@@ -225,6 +225,19 @@ body {
 	#ad_wrapper {
 		display: none;
 	}
+	.description {
+		width: 48%;
+		float: left;
+	}
+	.description_left {
+		width: 48%;
+	}
+	#feature_image {
+		width: 48%;
+	}
+	#feature_image_right {
+		width: 48%;
+	}
 }
 
 #ad_wrapper_article {
