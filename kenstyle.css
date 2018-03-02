@@ -355,7 +355,7 @@ form {
 	font-family: Roboto;
 	font-size: 18px;
 	margin-right: 10%;
-	margin-left: 2%;
+	display: inline-block;
 	background: #F5F5F5;
 	padding: 10px 24px 10px 24px;
 }
