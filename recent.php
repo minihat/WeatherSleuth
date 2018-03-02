@@ -157,6 +157,7 @@ for($i=$length; $i<$imax+$length; $i++){
 
 }
 
+echo '<div id="page_navs">'
 echo '<input type=button value="Prev Page" id="prev" nClick="self.location=\'recent.php?post_number=';
 if($post_num -8 >= 1){
 	echo $post_num - 8;
@@ -167,7 +168,7 @@ echo  '\'">';
 echo '<input type=button value="Next Page" id="next" onClick="self.location=\'recent.php?post_number=';
 echo $post_num + 8;
 echo '\'">';
-
+echo '</div>'
 ?>
 
 </div>
