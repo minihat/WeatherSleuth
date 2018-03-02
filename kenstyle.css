@@ -354,7 +354,7 @@ form {
 #prev {
 	font-family: Roboto;
 	font-size: 18px;
-	margin-right: 10%;
+	margin-left: 15%;
 	background: #F5F5F5;
 	padding: 10px 24px 10px 24px;
 }
@@ -362,15 +362,14 @@ form {
 #next {
 	font-family: Roboto;
 	font-size: 18px;
-	margin-left: 10%;
 	margin-right: 15%;
 	background: #F5F5F5;
 	padding: 10px 24px 10px 24px;
 }
 #page_navs {
-	width: 70%;
+	width: 75%;
 	margin-top: 0;
-	margin-bottom: 0;
+	margin-bottom: 20px;
 	margin-left: 0;
 	padding-top: 10px;
 	padding-bottom: 10px;
