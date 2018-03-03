@@ -150,6 +150,7 @@ width: 50%;
 float: right;
 background: white;
 height: auto;
+margin-bottom: 0
 }
 
 #feature_about {
@@ -169,8 +170,8 @@ height: auto;
 
 #ccm_logo {
 	display: inline-block;
-	width: 40%;
-	margin-left: 30%;
+	width: 30%;
+	margin-left: 35%;
 }
 
 .article_shell {
