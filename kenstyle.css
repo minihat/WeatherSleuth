@@ -145,9 +145,14 @@ body {
 	letter-spacing: 2px;
 }
 
+#title_about_box {
+width: 50%;
+float: right;
+background: blue;
+height: auto;	
+}
 #feature_about {
 	width: 50%;
-	margin-left: 15%;
 	font-size: 50px;
 	font-size: 4.0vw;
 	font-weight: 200;
