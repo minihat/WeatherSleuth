@@ -290,6 +290,20 @@ margin-top: 0
 	height: 2800px;
 }
 @media only screen and (max-width: 1026px) {
+	#feature_article {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		font-size: 80px;
+		font-size: 6.0vw;
+		font-weight: 200;
+		display: inline-block;
+		text-align: center;
+		color: black;
+		font-family: Open Sans Condensed;
+		text-decoration: none;
+		letter-spacing: 2px;
+	}
 	#ad_wrapper {
 		display: none;
 	}
