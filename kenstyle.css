@@ -153,11 +153,11 @@ height: auto;
 }
 
 #feature_about {
-	width: 80%;
-	margin-left: 9%;
-	margin-right: 11%;
-	font-size: 60px;
-	font-size: 4.0vw;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-size: 80px;
+	font-size: 6.0vw;
 	font-weight: 200;
 	display: inline-block;
 	color: black;
