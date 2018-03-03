@@ -148,7 +148,7 @@ body {
 #title_about_box {
 width: 50%;
 float: right;
-background: white;
+background: green;
 height: auto;
 }
 
@@ -169,6 +169,8 @@ height: auto;
 
 #ccm_logo {
 	display: inline-block;
+	width: 40%;
+	margin-left: 30%;
 }
 
 .article_shell {
