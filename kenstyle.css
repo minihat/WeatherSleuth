@@ -376,6 +376,8 @@ margin-top: 0
 }
 #soc_med_icons {
 	vertical-align:middle;
+	width: 50%;
+	height: auto;
 }
 
 #wslogo {
