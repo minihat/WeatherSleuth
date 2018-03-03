@@ -149,20 +149,19 @@ body {
 width: 50%;
 float: right;
 background: blue;
-height: auto;	
+height: auto;
 }
 #feature_about {
 	width: 50%;
+	margin-left: 25%;
 	font-size: 50px;
 	font-size: 4.0vw;
 	font-weight: 200;
 	display: inline-block;
-	text-align: center;
 	color: black;
 	font-family: Open Sans Condensed;
 	text-decoration: none;
 	letter-spacing: 2px;
-	float: right;
 }
 
 .article_shell {
