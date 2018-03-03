@@ -151,6 +151,7 @@ float: right;
 background: white;
 height: auto;
 margin-bottom: 0
+margin-top: 0
 }
 
 #feature_about {
@@ -172,6 +173,7 @@ margin-bottom: 0
 	display: inline-block;
 	width: 50%;
 	margin-left: 25%;
+	margin-top: 0
 }
 
 .article_shell {
