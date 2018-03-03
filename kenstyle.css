@@ -166,10 +166,8 @@ body {
 }
 
 #feature_image_about {
-	witdh: 40%;
 	margin-bottom: 15px;
-	text-align: inline-block;
-}
+	margin-left: 25%;
 
 #hr_left {
 	margin-top: 100px;
