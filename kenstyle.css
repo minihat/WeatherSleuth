@@ -152,6 +152,14 @@ body {
 	margin-top: 0;
 }
 
+.about_shell {
+	background-color: white;
+	width: 96%;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 0;
+}
+
 #feature_image_article {
 	witdh: 70%;
 	margin-bottom: 15px;
