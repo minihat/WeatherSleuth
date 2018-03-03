@@ -148,7 +148,7 @@ body {
 #title_about_box {
 width: 50%;
 float: right;
-background: green;
+background: white;
 height: auto;
 }
 
@@ -156,7 +156,7 @@ height: auto;
 	width: 80%;
 	margin-left: 9%;
 	margin-right: 11%;
-	font-size: 50px;
+	font-size: 60px;
 	font-size: 4.0vw;
 	font-weight: 200;
 	display: inline-block;
