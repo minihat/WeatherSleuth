@@ -151,6 +151,7 @@ float: right;
 background: white;
 height: auto;
 }
+
 #feature_about {
 	width: 80%;
 	margin-left: 9%;
@@ -164,6 +165,10 @@ height: auto;
 	text-decoration: none;
 	letter-spacing: 2px;
 	text-align: center;
+}
+
+#ccm_logo {
+	display: inline-block;
 }
 
 .article_shell {
