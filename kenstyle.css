@@ -258,8 +258,8 @@ margin-top: 0
 
 #about_story_box h3 {
 	display: inline-block;
-	font-family: Lora;
-	font-size: 35px;
+	font-family: Open Sans Condensed;
+	font-size: 5.0vw;
 	width: 55%;
 	margin-left: 25%;
 	margin-bottom: 0;
@@ -328,6 +328,11 @@ margin-top: 0
 	}
 	.article_shell {
 		width: 96%;
+	}
+}
+@media only screen and (max-width: 750px) {
+	#story_box h3 {
+		font-size: 8.0vw;
 	}
 }
 
