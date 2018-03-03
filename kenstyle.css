@@ -330,7 +330,7 @@ margin-top: 0
 		width: 96%;
 	}
 }
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 500px) {
 	#story_box h3 {
 		font-size: 8.0vw;
 	}
