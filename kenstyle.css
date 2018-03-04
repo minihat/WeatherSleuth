@@ -360,6 +360,10 @@ margin-top: 0
 		margin-bottom: -3%;
 	}
 }
+@media only screen and (max-width: 450px) {
+	#blurb {
+		font-size: 11px;
+}
 @media only screen and (min-width: 900px) {
 	#story_box h3 {
 		font-size: 48px;
