@@ -260,9 +260,9 @@ margin-top: 0
 #about_story_box h3 {
 	display: inline-block;
 	font-family: Open Sans Condensed;
-	font-size: 5.0vw;
-	width: 55%;
-	margin-left: 25%;
+	font-size: 48px;
+	width: 70%;
+	margin-left: 15%;
 	margin-bottom: 0;
 	margin-top: 40px;
 }
