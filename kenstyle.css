@@ -243,13 +243,13 @@ margin-top: 0
 }
 
 #story_box p {
-	width: 55%;
+	width: 70%;
 	display: inline-block;
 	font-family: Arial, Verdana, sans-serif;
 	line-height: 150%;
 	font-size: 18px;
-	margin-left: 25%;
-	margin-right: 20%;
+	margin-left: 15%;
+	margin-right: 15%;
 }
 #story_box {
 	padding-bottom: 100px;
