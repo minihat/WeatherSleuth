@@ -47,13 +47,15 @@
 <ul id="navigation">
 <li id="wslogo"><a href="http://weathersleuth.com/home.html"><img src="images/weathersleuth_logo.png" height="50"></a></li>
 <li><a href="home.html">&#9830; Home</a></li>
-<li><a href="recent.php">&#9830; Recent Posts</a></li>
+<li><a href="recent.php">&#9830; Blog</a></li>
 <li><a href="about.html">&#9830; About</a></li>
+<li><a href="#">&#9830; CV</a></li>
 <li><a href="contact.html">&#9830; Contact</a></li>
 <li id="soc_med_icons">
 <div>
   <a href="https://www.linkedin.com/in/halltim/"><img class="soc_med" src="images/icon_linkedin.png" alt="LinkedIn Button"></a>
 	<a href="https://twitter.com/wxsleuth"><img class="soc_med_2" src="images/icon_twitter.png" alt="Twitter Button"></a>
+	<a href="https://github.com"><img class="soc_med_3" src="images/icon_github.png" alt="Github Button"></a>
 </div>
 </li>
 <!--
@@ -190,9 +192,10 @@ echo '</div>';
 <ul id="bot_list">
 <li id="copy">&copy2018</li>
 <li id="foot_title">Weathersleuth</li>
-<li id="foot_link"><a href="home.html">&#9830; Home</a></li>
-<li id="foot_link"><a href="recent.php">&#9830; Recent Posts</a></li>
+<li id="foot_link"><a href="index.html">&#9830; Home</a></li>
+<li id="foot_link"><a href="recent.php">&#9830; Blog</a></li>
 <li id="foot_link"><a href="about.html">&#9830; About</a></li>
+<li id="foot_link"><a href="#">&#9830; CV</a></li>
 <li id="foot_link"><a href="contact.html">&#9830; Contact</a></li>
 <ul>
 </div>
