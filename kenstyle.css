@@ -347,6 +347,9 @@ margin-top: 0
 	#blurb {
 		font-size: 12px;
 }
+#feature {
+	font-size: 20px;
+}
 }
 @media only screen and (max-width: 500px) {
 	#story_box h3 {
@@ -355,9 +358,6 @@ margin-top: 0
 	#story_box {
 		padding-bottom: 10px;
 		margin-bottom: -3%;
-	}
-	#feature {
-		font-size: 20px;
 	}
 }
 @media only screen and (min-width: 900px) {
