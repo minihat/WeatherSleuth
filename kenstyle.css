@@ -79,6 +79,7 @@ body {
 	font-size: 17px;
 	margin-left: 6%;
 	margin-right: 8%;
+	margin-bottom: 0;
 	display: inline-block;
 	line-height: 150%;
 	margin-top: 0;
@@ -89,6 +90,7 @@ body {
 	font-family: Open Sans Condensed;
 	display: inline-block;
 	margin-left: 6%;
+	margin-top: 0;
 }
 .description {
 	background: #96BEE6;
