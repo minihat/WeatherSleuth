@@ -254,6 +254,7 @@ margin-top: 0
 #story_box {
 	padding-bottom: 100px;
 	margin-bottom: 0;
+	margin-top: -3%;
 }
 
 #about_story_box h3 {
@@ -542,7 +543,7 @@ form {
 	margin-right: 25%;
 }
 #feature_image_home {
-	margin-bottom: 3%;
+	margin-bottom: 0;
 	margin-left: 15%;
 	margin-right: 15%;
 }
