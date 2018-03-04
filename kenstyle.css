@@ -236,8 +236,8 @@ margin-top: 0
 	display: inline-block;
 	font-family: Open Sans Condensed;
 	font-size: 5.0vw;
-	width: 55%;
-	margin-left: 25%;
+	width: 70%;
+	margin-left: 15%;
 	margin-bottom: 0;
 	margin-top: 40px;
 }
@@ -540,6 +540,11 @@ form {
 	margin-bottom: 15px;
 	margin-left: 25%;
 	margin-right: 25%;
+}
+#feature_image_home {
+	margin-bottom: 15px;
+	margin-left: 15%;
+	margin-right: 15%;
 }
 #ad_wrapper_article_3 {
 	float: right;
