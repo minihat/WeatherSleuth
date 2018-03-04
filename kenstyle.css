@@ -343,6 +343,11 @@ margin-top: 0
 		margin-top: 3%;
 	}
 }
+@media only screen and (max-width: 750px) {
+	#blurb {
+		font-size: 12px;
+}
+
 @media only screen and (max-width: 500px) {
 	#story_box h3 {
 		font-size: 8.0vw;
