@@ -311,6 +311,10 @@ margin-top: 0
 	#ad_wrapper {
 		display: none;
 	}
+	#blurb {
+		font-size: 14px;
+	}
+
 	.description {
 		width: 48%;
 		margin-right: 2%;
