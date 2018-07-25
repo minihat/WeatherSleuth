@@ -48,8 +48,7 @@
 <li id="wslogo"><a href="http://weathersleuth.com/home.html"><img src="images/weathersleuth_logo.png" height="50"></a></li>
 <li><a href="home.html">&#9830; Home</a></li>
 <li><a href="recent.php">&#9830; Blog</a></li>
-<li><a href="about.html">&#9830; About</a></li>
-<li><a href="#">&#9830; CV</a></li>
+<li><a href="about.html">&#9830; Bio</a></li>
 <li><a href="contact.html">&#9830; Contact</a></li>
 <li id="soc_med_icons">
 <div>
@@ -194,8 +193,7 @@ echo '</div>';
 <li id="foot_title">Weathersleuth</li>
 <li id="foot_link"><a href="index.html">&#9830; Home</a></li>
 <li id="foot_link"><a href="recent.php">&#9830; Blog</a></li>
-<li id="foot_link"><a href="about.html">&#9830; About</a></li>
-<li id="foot_link"><a href="#">&#9830; CV</a></li>
+<li id="foot_link"><a href="about.html">&#9830; Bio</a></li>
 <li id="foot_link"><a href="contact.html">&#9830; Contact</a></li>
 <ul>
 </div>
