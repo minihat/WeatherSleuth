@@ -64,9 +64,9 @@ body {
 }
 
 #feature {
-	color: black;
+	color: #141F33;
 	font-family: Open Sans Condensed;
-	font-weight: 450;
+	font-weight: bold;
 	margin-left: 3%;
 	display: inline-block;
 	text-decoration: none;
@@ -93,14 +93,14 @@ body {
 	margin-top: 0;
 }
 .description {
-	background: #96BEE6;
+	background: #FFFFFF;
 	width: 35%;
 	float: right;
 	height: 350px;
 
 }
 .description_left {
-	background: #96BEE6;
+	background: #FFFFFF;
 	width: 35%;
 	float: left;
 	height: 350px;
@@ -185,6 +185,8 @@ margin-top: 0
 	width: 70%;
 	margin-left: 2%;
 	margin-top: 0;
+	padding-bottom: 50px;
+	margin-bottom: 4%;
 }
 
 .about_shell {
@@ -253,10 +255,10 @@ margin-top: 0
 	font-size: 18px;
 	margin-left: 15%;
 	margin-right: 15%;
-	margin-bottom: 100px;
+	margin-bottom: 15px;
 }
 #story_box {
-	padding-bottom: 10px;
+	padding-bottom: 100px;
 	margin-bottom: 0;
 	margin-top: -3%;
 }
@@ -592,7 +594,7 @@ form {
 	height: 100px;
 }
 #stats {
-	color: white;
+	color: black;
 	font-family: Pacifico;
 	display: inline-block;
 	margin-left: 6%;
@@ -601,4 +603,7 @@ form {
 	margin-left: 20%;
 	width: 60%;
 	margin-right: 20%;
+}
+#extra_space {
+	margin-bottom: 10%;
 }
