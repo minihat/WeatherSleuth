@@ -1,0 +1,172 @@
+<html>
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-79602505-2"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-79602505-2');
+	</script>
+<title>Weathersleuth Home</title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Passion+One:700,400' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Lora:400,400italics' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="kenstyle.css">
+	<meta property="og:url" content="http://weathersleuth.com/home.html" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="WeatherSleuth" />
+	<meta property="og:description" content="Meteorological Intelligence for the Rest of Us" />
+	<meta property="og:image" content="http://weathersleuth.com/weathersleuth_logo.png" />
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+if (matchMedia('only screen and (min-width: 975px)').matches) {
+$sizetest = 0;
+$(function() {
+
+    var $sidebar   = $("#sticky_sidebar"),
+        $window    = $(window),
+        offset     = $sidebar.offset(),
+        topPadding = 40;
+
+    $window.scroll(function() {
+        if ($window.scrollTop() > offset.top) {
+            $sidebar.stop().animate({
+                marginTop: $window.scrollTop() - offset.top + topPadding
+            });
+        } else {
+            $sidebar.stop().animate({
+                marginTop: 0
+            });
+        }
+    });
+
+});
+}
+if (matchMedia('only screen and (max-width: 975px)').matches) {
+$('#article_content').insertBefore('#ad_wrapper_article');
+$sizetest = 1;
+}
+});
+
+$(window).resize(function(){
+if (matchMedia('only screen and (max-width: 975px)').matches) {
+$('#article_content').insertBefore('#ad_wrapper_article');
+if ($sizetest == 0){
+location.reload();
+}
+}
+
+
+if (matchMedia('only screen and (min-width: 975px)').matches) {
+$('#ad_wrapper_article').insertBefore('#article_content');
+if ($sizetest == 1){
+location.reload();
+}
+}
+});
+
+</script>
+</head>
+
+<body>
+	<!--
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+-->
+<!--
+<h1 id="blog_name">Weathersleuth</h1>
+-->
+<div class="rectangle">
+
+<div class="nav_container">
+<ul id="navigation">
+<li id="wslogo"><a href="http://weathersleuth.com/home.html"><img src="images/weathersleuth_logo.png" height="50"></a></li>
+<li><a href="home.html">&#9830; Home</a></li>
+<li><a href="recent.php">&#9830; Blog</a></li>
+<li><a href="about.html">&#9830; Bio</a></li>
+<li><a href="contact.html">&#9830; Contact</a></li>
+<li id="soc_med_icons">
+<div>
+	<a href="https://www.linkedin.com/in/halltim/"><img class="soc_med" src="images/icon_linkedin.png" alt="LinkedIn Button"></a>
+	<a href="https://twitter.com/wxsleuth"><img class="soc_med_2" src="images/icon_twitter.png" alt="Twitter Button"></a>
+	<a href="https://github.com/WeatherSleuth"><img class="soc_med_3" src="images/icon_github.png" alt="Github Button"></a>
+</div>
+</li>
+<!--
+<li><div class="fb-like" data-href="http://weathersleuth.com/home.html" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div></li>
+-->
+
+</ul>
+</div>
+</div>
+
+<div id="ad_wrapper_article_3">
+
+<!--
+<div id="social_section">
+<h3 id="side_header">Connect with Us</h3>
+<a href="https://www.linkedin.com/"><img class="soc_med" src="icon_linkedin.png" alt="LinkedIn Button"></a>
+<a href="https://twitter.com/?lang=en"><img class="soc_med_2" src="icon_twitter.png" alt="Twitter Button"></a>
+<a href="https://www.instagram.com/?hl=en"><img class="soc_med_3" src="icon_Instagram.png" alt="Instagram Button"></a>
+</div>
+-->
+
+<div id="subscribe">
+<h3 id="side_header">Subscribe</h3>
+<img src="images/tim.jpg" alt="Tim Hall" style="width:100%;display:block;margin:0">
+<form method="post" action="//weathersleuth.us13.list-manage.com/subscribe/post?u=b27440dadb3166b9b12cda2ee&amp;id=4645eac027" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+<p id="sub_para">Enter your email below to receive WeatherSleuth updates.</p>
+<input id="email_input" type="email" name="EMAIL" value="">
+<br><br>
+<div id="mce-responses" class="clear">
+	<div class="response" id="mce-error-response" style="display:none"></div>
+	<div class="response" id="mce-success-response" style="display:none"></div>
+</div>
+<input id="submit_button" name="subscribe" type="submit" value="Subscribe!" class="button">
+</form>
+</div>
+
+</div>
+
+
+<div class="article_shell">
+<h2 id="feature_article"><a id="feature_article" href="#">Contact</a></h2>
+<hr id="hr_ab_2">
+
+<div id="story_box">
+<h3>Email</h3>
+<p>You can reach Tim Hall by email at: <a href="mailto:wxsleuth@gmail.com">wxsleuth@gmail.com</a>
+</div>
+<div id="extra_space">
+</div>
+</div>
+
+<div id="footer_wrapper">
+<ul id="bot_list">
+<li id="copy">&copy2018</li>
+<li id="foot_title">Weathersleuth</li>
+<li id="foot_link"><a href="home.html">&#9830; Home</a></li>
+<li id="foot_link"><a href="recent.php">&#9830; Blog</a></li>
+<li id="foot_link"><a href="about.html">&#9830; Bio</a></li>
+<li id="foot_link"><a href="contact.html">&#9830; Contact</a></li>
+<ul>
+</div>
+</body>
+
+</html>
