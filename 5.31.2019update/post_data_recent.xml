@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <postdata>
 	<post>
+		<post_title>Great Baltimore Fire of 1904 - Part 2</post_title>
+		<date>May 31, 2019</date>
+		<blurb>Over the course of 32 hours on Feb. 7-8, 1904, 140 acres were obliterated...</blurb>
+		<picture>recent_php_cover_2.png</picture>
+		<link>baltimore_fire_2.html</link>
+	</post>
+
+	<post>
 		<post_title>Great Baltimore Fire of 1904</post_title>
 		<date>January 7, 2019</date>
 		<blurb>On February 7-8, 1904, the heart of Baltimore was scorched by a wind-driven conflagration of horrific magnitude. It remains the third largest urban mass fire in U.S. History...</blurb>
@@ -56,12 +64,5 @@
 		<link>#</link>
 	</post>
 
-	<post>
-		<post_title>Coming Soon!</post_title>
-		<date> </date>
-		<blurb>Check back soon for more great articles from WeatherSleuth</blurb>
-		<picture>coming_soon.png</picture>
-		<link>#</link>
-	</post>
 
 </postdata>
